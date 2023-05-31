@@ -1,0 +1,33 @@
+uuid: ccb94b59-6031-4c9e-85e5-7ecad014e6fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view._article_block
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block___article_block_block_1
+theme: bartik
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:_article_block-block_1'
+settings:
+  id: 'views_block:_article_block-block_1'
+  label: 'This block shows everywhere except Articles page'
+  label_display: visible
+  provider: views
+  views_label: 'This block shows everywhere except Articles page'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      news: news
+      page: page

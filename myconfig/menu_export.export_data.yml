@@ -1,0 +1,264 @@
+5:
+  id:
+    value: '5'
+  uuid:
+    value: 05f75d4a-5b23-4174-9867-9f8c8bbc2504
+  revision_id:
+    value: '5'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1685430214'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'LATEST NEWS'
+  description: false
+  menu_name:
+    value: header-menu
+  link:
+    uri: 'internal:/latest-news'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-49'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1685430561'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+6:
+  id:
+    value: '6'
+  uuid:
+    value: 8cc00ce6-a171-4a0d-bb53-68fb7642ae83
+  revision_id:
+    value: '6'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1685430250'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: ABOUT
+  description:
+    value: 'about the site'
+  menu_name:
+    value: header-menu
+  link:
+    uri: 'internal:/about'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-48'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1685430561'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+7:
+  id:
+    value: '7'
+  uuid:
+    value: 5f9780f6-7534-419b-8b6f-e56c30622dcf
+  revision_id:
+    value: '7'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1685430299'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'ALL NEWS'
+  description:
+    value: 'all the news'
+  menu_name:
+    value: header-menu
+  link:
+    uri: 'internal:/all-news'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-50'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1685430561'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+8:
+  id:
+    value: '8'
+  uuid:
+    value: 0c70f068-527f-461e-9c47-310c909eb029
+  revision_id:
+    value: '8'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1685432446'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'Hindustan Times'
+  description:
+    value: 'Hindustan Times'
+  menu_name:
+    value: header-menu
+  link:
+    uri: 'https://www.hindustantimes.com/'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '0'
+  weight:
+    value: '-50'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:5f9780f6-7534-419b-8b6f-e56c30622dcf'
+  changed:
+    value: '1685445754'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+9:
+  id:
+    value: '9'
+  uuid:
+    value: 1fde9230-41a8-40fd-87f2-1bf65cdd73b8
+  revision_id:
+    value: '9'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1685432527'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: NDTV
+  description: false
+  menu_name:
+    value: header-menu
+  link:
+    uri: 'https://www.ndtv.com/'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '0'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:5f9780f6-7534-419b-8b6f-e56c30622dcf'
+  changed:
+    value: '1685432527'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+10:
+  id:
+    value: '10'
+  uuid:
+    value: a7b78aa7-b0a6-4b74-83d0-40b425c7b062
+  revision_id:
+    value: '10'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1685432562'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'The Indian Times'
+  description: false
+  menu_name:
+    value: header-menu
+  link:
+    uri: 'https://indianexpress.com/'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '0'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:5f9780f6-7534-419b-8b6f-e56c30622dcf'
+  changed:
+    value: '1685432562'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'

@@ -1,0 +1,20 @@
+uuid: def899a2-7e4c-47eb-8977-985f711d65ed
+langcode: en
+status: true
+dependencies: {  }
+id: logo_
+label: 'logo '
+code: |-
+  .site-branding {
+  	width: 13%;
+  	border: 2px solid black;
+  	Border-radius: 9px;
+  }
+  .site-branding a{
+  	display:unset;
+  }
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

@@ -1,0 +1,32 @@
+uuid: b665c032-34e8-4eb8-a2c4-d1739e646b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.article_block
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__article_block_block_1
+theme: bartik
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:article_block-block_1'
+settings:
+  id: 'views_block:article_block-block_1'
+  label: 'This block only shows inside Articles'
+  label_display: visible
+  provider: views
+  views_label: 'This block only shows inside Articles'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

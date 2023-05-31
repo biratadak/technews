@@ -1,0 +1,8 @@
+uuid: 79840697-2305-4854-83c1-27df71af5e37
+langcode: en
+status: true
+dependencies: {  }
+id: new
+label: new
+revision: 0
+description: 'new testing block type'

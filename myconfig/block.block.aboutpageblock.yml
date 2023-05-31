@@ -1,0 +1,30 @@
+uuid: ceee469a-a8c7-4207-ab20-711fac88914b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:3d5b80a0-e163-40b2-8737-79225bcd0b52'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: aboutpageblock
+theme: bartik
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:3d5b80a0-e163-40b2-8737-79225bcd0b52'
+settings:
+  id: 'block_content:3d5b80a0-e163-40b2-8737-79225bcd0b52'
+  label: 'About Page block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about

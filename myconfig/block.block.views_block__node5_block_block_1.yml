@@ -1,0 +1,29 @@
+uuid: c7a9e7a0-a78c-4e0b-8c7e-c65597b710dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.node5_block
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__node5_block_block_1
+theme: bartik
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'views_block:node5_block-block_1'
+settings:
+  id: 'views_block:node5_block-block_1'
+  label: 'This block only shows inside node/5'
+  label_display: visible
+  provider: views
+  views_label: 'This block only shows inside node/5'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

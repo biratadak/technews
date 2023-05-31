@@ -1,0 +1,30 @@
+uuid: 5794a5ec-43a6-4b8e-8812-b90d254265de
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_news_cover
+field_name: field_news_cover
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: 92398a99-b254-4ba8-bf07-03103c1a0851
+    alt: 'NEWS cover pic'
+    title: 'Cover Pic'
+    width: 785
+    height: 318
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
