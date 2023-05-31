@@ -1,0 +1,31 @@
+uuid: fa7e5b49-e43e-4f09-b2a8-705bcc302885
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.new
+    - field.field.block_content.new.body
+    - field.field.block_content.new.field_new_field
+  module:
+    - text
+id: block_content.new.default
+targetEntityType: block_content
+bundle: new
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_new_field:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

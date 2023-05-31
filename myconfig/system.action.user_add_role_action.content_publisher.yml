@@ -1,0 +1,14 @@
+uuid: aeaf6df8-b495-4f1a-b0e8-c4fffdfeabeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.content_publisher
+  module:
+    - user
+id: user_add_role_action.content_publisher
+label: 'Add the Content Publisher role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: content_publisher

@@ -1,0 +1,8 @@
+uuid: 4d315239-ab73-415a-adbb-4cc4a980c3a8
+langcode: en
+status: true
+dependencies: {  }
+name: Year
+vid: year
+description: 'Year of News'
+weight: 0

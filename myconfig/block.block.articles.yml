@@ -1,0 +1,33 @@
+uuid: a2855fbc-116d-49ce-aa28-c1ee2bdcd376
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:bbe954f9-91c8-483d-a63e-3c0c4ce81e11'
+  module:
+    - block_content
+    - node
+  theme:
+    - bartik
+id: articles
+theme: bartik
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:bbe954f9-91c8-483d-a63e-3c0c4ce81e11'
+settings:
+  id: 'block_content:bbe954f9-91c8-483d-a63e-3c0c4ce81e11'
+  label: Articles
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

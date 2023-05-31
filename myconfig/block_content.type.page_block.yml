@@ -1,0 +1,8 @@
+uuid: f07c6809-3974-4339-befc-e60248538e98
+langcode: en
+status: true
+dependencies: {  }
+id: page_block
+label: 'page block'
+revision: 0
+description: 'this is a new custom block type'

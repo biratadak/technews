@@ -1,0 +1,33 @@
+uuid: 202fd741-af6f-497a-9367-de7a95969aaa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:49dfc524-bb04-41bd-988f-5655698169d5'
+  module:
+    - block_content
+    - node
+  theme:
+    - bartik
+id: news
+theme: bartik
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:49dfc524-bb04-41bd-988f-5655698169d5'
+settings:
+  id: 'block_content:49dfc524-bb04-41bd-988f-5655698169d5'
+  label: News
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      news: news

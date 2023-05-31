@@ -1,0 +1,30 @@
+uuid: ba340a89-ed5f-490b-85c5-89633be382d5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:3cc6e0d0-4844-48d4-9adf-56cd0f548cab'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: alluser
+theme: bartik
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:3cc6e0d0-4844-48d4-9adf-56cd0f548cab'
+settings:
+  id: 'block_content:3cc6e0d0-4844-48d4-9adf-56cd0f548cab'
+  label: AllUser
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /all-users

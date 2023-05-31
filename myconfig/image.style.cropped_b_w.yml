@@ -1,0 +1,23 @@
+uuid: f8a164ba-5176-4751-86b3-0bfc0734e92a
+langcode: en
+status: true
+dependencies: {  }
+name: cropped_b_w
+label: 'Cropped B&W'
+effects:
+  c006f116-b400-4621-9f7d-0a665e36aed8:
+    uuid: c006f116-b400-4621-9f7d-0a665e36aed8
+    id: image_crop
+    weight: 1
+    data:
+      width: 500
+      height: 600
+      anchor: center-center
+  8944925d-89be-4ba3-a8f0-e93a503bd791:
+    uuid: 8944925d-89be-4ba3-a8f0-e93a503bd791
+    id: image_rotate
+    weight: 2
+    data:
+      degrees: 90
+      bgcolor: '#dc2323'
+      random: true

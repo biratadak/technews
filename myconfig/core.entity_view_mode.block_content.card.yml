@@ -1,0 +1,10 @@
+uuid: 778d62b8-f0fb-4e6e-8a7f-3bd4403dac62
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.card
+label: Card
+targetEntityType: block_content
+cache: true
